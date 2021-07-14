@@ -709,8 +709,6 @@ body {
 
 .position {
   display: flex;
-  align-items: flex-end;
-  margin-left: 370px;
 }
 
 .form-inputf {
@@ -733,7 +731,6 @@ body {
 }
 
 .form-buttonf {
-  position: absolute;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -750,6 +747,7 @@ body {
   background-repeat: no-repeat;
   background-position: 85% 55%;
   padding: 10px 62px 10px 29px;
+  margin-left: 12px;
 }
 
 /* Modal */
@@ -818,6 +816,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   margin-bottom: 12px;
+}
+
+.form-indent {
+  margin-bottom: 30px;
 }
 
 .form-label {
@@ -897,7 +899,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
 
 .form-link {
@@ -910,7 +911,6 @@ body {
   border: 2px solid var(--title-text-color);
   border-radius: 2px;
   margin-right: 7px;
-  margin-bottom: 30px;
 }
 
 .checkbox:checked + .checkbox-box {
