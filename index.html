@@ -394,8 +394,8 @@
       </div>
       <div class="subscribe">
         <p class="text">Подпишитесь на рассылку</p>
-        <form class="form-position" action="">
-          <input class="form-inputf" type="email" name="email" placeholder="E-mail">
+        <form class="form-position" action="#">
+          <input class="form-inputf" type="email" name="email" placeholder="E-mail" required>
           <button class="form-buttonf" type="submit">Подписаться</button>
         </form>        
       </div>
@@ -412,10 +412,10 @@
 
         <h3 class="title-form">Оставьте свои данные, мы вам перезвоним</h3>
 
-        <form class="form-indent" action="">
+        <form class="form-indent">
           <label class="form-label" for="user-name">Имя</label>
             <div class="form-box">
-              <input class="form-input" type="text" name="user-name" id="user-name">
+              <input class="form-input" type="text" name="user-name" id="user-name" required>
                 <svg class="form-icon">
                     <use href="./images/symbol-defs.svg#person"></use>
                 </svg>
@@ -423,7 +423,7 @@
 
           <label class="form-label" for="user-phone">Телефон</label>          
             <div class="form-box">           
-              <input class="form-input" type="text" name="user-phone" id="user-phone">
+              <input class="form-input" type="tel" name="user-phone" id="user-phone" required>
                 <svg class="form-icon">
                   <use href="./images/symbol-defs.svg#phone"></use>
                 </svg>
@@ -431,14 +431,14 @@
 
           <label class="form-label" for="user-mail">Почта</label>
             <div class="form-box">         
-              <input class="form-input" type="text" name="user-mail" id="user-mail">
+              <input class="form-input" type="email" name="user-mail" id="user-mail" required>
                 <svg class="form-icon">
                   <use href="./images/symbol-defs.svg#email"></use>
                 </svg>
             </div>
 
-          <label class="form-label" for="">Комментарий</label>
-          <textarea class="form-textarea" name="" id="" cols="20" rows="10" placeholder="Введите текст"></textarea>
+          <label class="form-label">Комментарий</label>
+          <textarea class="form-textarea" name="feedback" id="feedback" cols="20" rows="10" placeholder="Введите текст"></textarea>
           <label for="modal-checkbox" class="input-label">
             <input type="checkbox" name="modal-checkbox" id="modal-checkbox" class="checkbox visually-hidden">
             <span class="checkbox-box"></span>
